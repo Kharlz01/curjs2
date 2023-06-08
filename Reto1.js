@@ -86,6 +86,14 @@ while (l==0){
     }
 }
 
+let rpt = 0;
+
+while (rpt!=4){
+    let rpt2 = prompt("Cuanto es 2 + 2");
+    rpt = rpt2;
+}
+console.log("Felicidades!");
+
 // Array 1
 
 let a = ["Hola","a","Todos"]
