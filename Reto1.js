@@ -47,6 +47,24 @@ if (tipoDeSuscripcion == "Free") {
     console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
 }
 
+// BONUS
+
+function TipoSub(sub){
+    const arr = {
+        Free: "Solo puedes tomar los cursos gratis",
+        Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+        Expert: "Puedes tomar casi todos los cursos de Platzi durante un año",
+        ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+    }
+
+    if (arr[sub]){
+        console.log(arr[sub]);
+        return;
+    }
+
+    console.warn("Tipo de suscripcion no existe")
+}
+
 // Codigo 3
 
 for (let i = 0; i < 5; i++) {
@@ -95,6 +113,7 @@ while (rpt!=4){
 console.log("Felicidades!");
 
 // Array 1
+
 
 let a = ["Hola","a","Todos"]
 
